@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shree Shyam Ji Tuition Centre</title>
+
+    <style>
+        body { font-family: Arial; margin:0; background:#f4f4f4; }
+
+        header {
+            background: linear-gradient(to right, #4CAF50, #2e7d32);
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav {
+            background:#222;
+            padding:12px;
+            text-align:center;
+        }
+
+        nav a {
+            color:white;
+            margin:15px;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        nav a:hover { color:#4CAF50; }
+
+        .hero {
+            background:url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b') center/cover;
+            color:white;
+            padding:100px 20px;
+            text-align:center;
+        }
+
+        .hero h1 { font-size:40px; }
+
+        .btn {
+            background:#ff9800;
+            color:white;
+            padding:12px 20px;
+            border:none;
+            cursor:pointer;
+            margin-top:10px;
+        }
+
+        .container { padding:20px; }
+
+        .box {
+            background:white;
+            padding:20px;
+            margin:20px 0;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .flex {
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card {
+            flex:1;
+            min-width:250px;
+            background:#fff;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .testimonial {
+            background:#e8f5e9;
+            padding:15px;
+            border-left:5px solid #4CAF50;
+            margin:10px 0;
+        }
+
+        footer {
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:10px;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp {
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            background:#25D366;
+            color:white;
+            padding:15px;
+            border-radius:50%;
+            font-size:20px;
+            text-decoration:none;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Shree Shyam Ji Tuition Centre</h1>
+    <p>Bright Future Starts Here ✨</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero">
+    <h1>Best Tuition in Uttam Nagar</h1>
+    <p>Nursery to Class 8 | Strong Foundation | Personal Attention</p>
+    <button class="btn" onclick="window.location.href='contact.html'">Apply Now</button>
+</div>
+
+<div class="container">
+
+<div class="box">
+    <h2>Why Parents Trust Us</h2>
+    <div class="flex">
+        <div class="card">✔ Small Batches</div>
+        <div class="card">✔ Weekly Tests</div>
+        <div class="card">✔ Personal Attention</div>
+    </div>
+</div>
+
+<div class="box">
+    <h2>Student Results</h2>
+    <p>🏆 90%+ students improved marks in 3 months</p>
+    <p>🏆 Weak students became confident</p>
+</div>
+
+<div class="box">
+    <h2>What Parents Say</h2>
+
+    <div class="testimonial">
+        "Best tuition in area, my child improved a lot!" ⭐⭐⭐⭐⭐
+    </div>
+
+    <div class="testimonial">
+        "Very friendly teacher and good environment." ⭐⭐⭐⭐⭐
+    </div>
+
+</div>
+
+<div class="box">
+    <h2>Gallery</h2>
+    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" width="100%">
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Shree Shyam Ji Tuition Centre</p>
+</footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/9810868046" target="_blank">💬</a>
+
+</body>
+</html>
+<h2>Admission Form</h2>
+
+<input type="text" placeholder="Student Name">
+<input type="text" placeholder="Class">
+<input type="text" placeholder="Parent Phone Number">
+<textarea placeholder="Address"></textarea>
+
+<button onclick="alert('Form submitted! We will contact you soon.')">
+    Submit
+</button>
